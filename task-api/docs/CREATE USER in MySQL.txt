@@ -1,0 +1,7 @@
+CREATE USER 'UserTaskdb'@'%' IDENTIFIED BY 'Joyful*.51#!';
+GRANT SELECT, INSERT, UPDATE, DELETE ON JavaSpringBootTaskdb.* TO 'UserTaskdb'@'%';
+FLUSH PRIVILEGES;
+
+CREATE USER 'UserTaskdb'@'localhost' IDENTIFIED BY 'Joyful*.51#!';
+GRANT SELECT, INSERT, UPDATE, DELETE ON JavaSpringBootTaskdb.* TO 'UserTaskdb'@'localhost';
+FLUSH PRIVILEGES;

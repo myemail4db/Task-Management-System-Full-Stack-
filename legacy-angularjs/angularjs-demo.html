@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html ng-app="demoApp">
+<head>
+  <meta charset="utf-8"/>
+  <title>AngularJS Tasks Demo</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 20px; }
+    .err { color: #b00; }
+    .tag { padding:2px 6px; border:1px solid #ddd; border-radius:10px; margin-left:8px; font-size:12px;}
+  </style>
+</head>
+<body ng-controller="MainCtrl as vm">
+  <h2>Tasks (AngularJS)</h2>
+
+  <div>
+    <input ng-model="vm.q" placeholder="search title..."/>
+    <button ng-click="vm.search()">Search</button>
+  </div>
+
+  <p class="err" ng-if="vm.error">{{vm.error}}</p>
+
+  <ul>
+    <li ng-repeat="t in vm.tasks">
+      <strong>#{{t.taskId}}</strong> {{t.title}}
+      <span class="tag">{{t.status}}</span>
+      <span class="tag">{{t.priority}}</span>
+    </li>
+  </ul>
+
+  <script>
+    angular.module("demoApp", [])
+      .controller("MainCtrl", function($http) {
+        const vm = this;
+        vm.tasks = [];
+        vm.error = null;
+        vm.q = "";
+
+        vm.search = function() {
+          vm.error = null;
+          const url = vm.q
+            ? "http://localhost:8080/api/reports/tasks/search?q=" + encodeURIComponent(vm.q) + "&size=10"
+            : "http://localhost:8080/api/reports/tasks/search?size=10";
+
+          $http.get(url, { headers: { "X-Correlation-Id": "ng-demo-1" } })
+            .then(r => { vm.tasks = (r.data.content || r.data) })
+            .catch(e => { vm.error = (e.data && e.data.message) || e.statusText; });
+        };
+
+        vm.search(); // initial load
+      });
+  </script>
+</body>
+</html>

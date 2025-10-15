@@ -1,0 +1,301 @@
+user_id,first_name,last_name,email,role,team,active,created_at
+1,Sam,Smith,sam.smith1@example.com,MANAGER,Mobile,1,2025-01-16 15:05:55
+2,Sam,Rodriguez,sam.rodriguez2@example.com,QA,Security,0,2024-05-11 23:59:32
+3,Taylor,Brown,taylor.brown3@example.com,DEVELOPER,Internal Tools,1,2024-12-14 00:03:05
+4,Jamie,Davis,jamie.davis4@example.com,PRODUCT,Growth,1,2025-02-13 23:07:41
+5,Alex,Williams,alex.williams5@example.com,SUPPORT,Ops,1,2024-06-28 05:33:32
+6,Riley,Johnson,riley.johnson6@example.com,QA,Security,1,2025-02-28 17:54:34
+7,Riley,Wilson,riley.wilson7@example.com,MANAGER,Payments,1,2024-10-30 20:41:51
+8,Sam,Davis,sam.davis8@example.com,QA,Internal Tools,1,2024-12-05 18:02:13
+9,Morgan,Miller,morgan.miller9@example.com,PRODUCT,Core Services,0,2024-07-03 02:51:19
+10,Casey,Johnson,casey.johnson10@example.com,PRODUCT,Core Services,1,2024-09-28 16:46:47
+11,Riley,Williams,riley.williams11@example.com,ANALYST,Ops,1,2024-07-18 07:06:11
+12,Sam,Wilson,sam.wilson12@example.com,DEVOPS,Internal Tools,1,2024-06-08 01:42:39
+13,Quinn,Davis,quinn.davis13@example.com,MANAGER,Internal Tools,1,2024-08-09 13:13:24
+14,Alex,Brown,alex.brown14@example.com,DEVELOPER,Ops,1,2024-05-01 07:36:43
+15,Taylor,Wilson,taylor.wilson15@example.com,ANALYST,Mobile,1,2024-09-06 06:14:45
+16,Quinn,Williams,quinn.williams16@example.com,MANAGER,Data Platform,1,2024-11-09 15:01:10
+17,Jamie,Jones,jamie.jones17@example.com,SUPPORT,Security,1,2024-05-29 08:02:05
+18,Jamie,Garcia,jamie.garcia18@example.com,QA,Payments,1,2024-06-03 23:16:25
+19,Jordan,Davis,jordan.davis19@example.com,QA,Security,1,2024-10-04 09:13:50
+20,Jamie,Jones,jamie.jones20@example.com,DEVELOPER,Core Services,1,2024-10-31 03:36:56
+21,Casey,Miller,casey.miller21@example.com,QA,Web,1,2024-09-28 19:42:03
+22,Alex,Jones,alex.jones22@example.com,DEVOPS,Internal Tools,1,2025-03-09 16:30:38
+23,Casey,Rodriguez,casey.rodriguez23@example.com,PRODUCT,Data Platform,1,2024-06-07 08:26:08
+24,Jamie,Rodriguez,jamie.rodriguez24@example.com,DEVELOPER,Ops,1,2024-05-19 01:22:19
+25,Riley,Jones,riley.jones25@example.com,PRODUCT,Payments,1,2024-11-11 22:50:21
+26,Sam,Johnson,sam.johnson26@example.com,DESIGNER,Core Services,1,2024-10-29 11:52:14
+27,Jordan,Williams,jordan.williams27@example.com,DESIGNER,Internal Tools,1,2024-10-27 12:57:56
+28,Morgan,Davis,morgan.davis28@example.com,PRODUCT,Internal Tools,1,2024-12-29 12:43:18
+29,Taylor,Jones,taylor.jones29@example.com,SUPPORT,Ops,1,2024-10-23 14:50:45
+30,Quinn,Johnson,quinn.johnson30@example.com,PRODUCT,Mobile,1,2024-04-13 18:44:34
+31,Morgan,Rodriguez,morgan.rodriguez31@example.com,PRODUCT,Mobile,0,2025-01-05 12:14:42
+32,Alex,Brown,alex.brown32@example.com,QA,Payments,1,2024-05-03 03:07:40
+33,Jamie,Brown,jamie.brown33@example.com,MANAGER,Growth,1,2024-05-26 23:55:30
+34,Morgan,Wilson,morgan.wilson34@example.com,DESIGNER,Mobile,1,2025-02-13 05:06:25
+35,Avery,Brown,avery.brown35@example.com,QA,Core Services,1,2024-08-21 04:58:55
+36,Avery,Davis,avery.davis36@example.com,DESIGNER,Payments,1,2024-12-12 13:31:16
+37,Sam,Smith,sam.smith37@example.com,SUPPORT,Ops,1,2024-05-18 01:09:02
+38,Taylor,Brown,taylor.brown38@example.com,PRODUCT,Internal Tools,1,2024-09-16 10:54:40
+39,Jordan,Jones,jordan.jones39@example.com,DESIGNER,Mobile,1,2024-05-04 21:19:39
+40,Quinn,Rodriguez,quinn.rodriguez40@example.com,QA,Payments,1,2024-11-01 13:20:03
+41,Alex,Johnson,alex.johnson41@example.com,PRODUCT,Data Platform,1,2024-10-09 13:16:30
+42,Taylor,Davis,taylor.davis42@example.com,DEVELOPER,Data Platform,1,2024-09-04 05:41:02
+43,Casey,Garcia,casey.garcia43@example.com,MANAGER,Security,1,2025-01-14 07:29:32
+44,Jamie,Garcia,jamie.garcia44@example.com,DEVOPS,Mobile,1,2024-04-28 07:47:35
+45,Morgan,Rodriguez,morgan.rodriguez45@example.com,DEVELOPER,Ops,1,2024-11-18 11:37:09
+46,Quinn,Rodriguez,quinn.rodriguez46@example.com,DEVOPS,Payments,1,2024-05-06 17:22:56
+47,Jordan,Johnson,jordan.johnson47@example.com,QA,Mobile,1,2024-11-12 20:26:56
+48,Taylor,Wilson,taylor.wilson48@example.com,DEVELOPER,Core Services,1,2024-11-18 06:54:34
+49,Morgan,Rodriguez,morgan.rodriguez49@example.com,ANALYST,Web,1,2025-01-08 18:04:51
+50,Riley,Brown,riley.brown50@example.com,MANAGER,Security,1,2024-12-12 07:11:34
+51,Casey,Garcia,casey.garcia51@example.com,ANALYST,Core Services,0,2024-12-02 20:18:47
+52,Morgan,Johnson,morgan.johnson52@example.com,QA,Internal Tools,1,2024-07-17 14:32:11
+53,Jordan,Miller,jordan.miller53@example.com,QA,Mobile,1,2024-06-05 20:59:47
+54,Quinn,Rodriguez,quinn.rodriguez54@example.com,MANAGER,Internal Tools,0,2025-02-16 22:39:07
+55,Jamie,Jones,jamie.jones55@example.com,QA,Data Platform,1,2024-05-17 04:20:13
+56,Jamie,Williams,jamie.williams56@example.com,MANAGER,Web,1,2025-01-09 07:19:11
+57,Riley,Brown,riley.brown57@example.com,MANAGER,Internal Tools,1,2025-02-28 04:56:51
+58,Alex,Johnson,alex.johnson58@example.com,SUPPORT,Web,0,2024-08-13 03:39:42
+59,Jordan,Jones,jordan.jones59@example.com,DEVOPS,Growth,1,2024-09-18 17:01:13
+60,Jamie,Smith,jamie.smith60@example.com,QA,Core Services,1,2024-12-29 23:27:32
+61,Jordan,Rodriguez,jordan.rodriguez61@example.com,DEVELOPER,Ops,1,2024-06-02 03:01:24
+62,Avery,Williams,avery.williams62@example.com,DEVELOPER,Web,1,2025-02-08 19:05:13
+63,Alex,Miller,alex.miller63@example.com,PRODUCT,Mobile,1,2024-08-20 23:12:47
+64,Jamie,Davis,jamie.davis64@example.com,DEVOPS,Mobile,1,2025-02-10 06:10:36
+65,Jordan,Davis,jordan.davis65@example.com,DEVELOPER,Data Platform,1,2024-08-12 14:52:56
+66,Avery,Brown,avery.brown66@example.com,MANAGER,Data Platform,1,2024-05-17 14:12:49
+67,Avery,Smith,avery.smith67@example.com,DESIGNER,Mobile,1,2024-10-01 09:01:35
+68,Riley,Jones,riley.jones68@example.com,PRODUCT,Mobile,0,2024-06-19 14:47:22
+69,Avery,Miller,avery.miller69@example.com,MANAGER,Core Services,1,2024-07-23 00:19:22
+70,Riley,Rodriguez,riley.rodriguez70@example.com,SUPPORT,Internal Tools,1,2024-04-16 07:56:42
+71,Sam,Jones,sam.jones71@example.com,DEVOPS,Web,0,2024-11-23 07:08:11
+72,Avery,Miller,avery.miller72@example.com,ANALYST,Security,1,2024-10-21 05:29:52
+73,Sam,Davis,sam.davis73@example.com,PRODUCT,Web,0,2024-09-21 23:02:24
+74,Alex,Rodriguez,alex.rodriguez74@example.com,PRODUCT,Ops,1,2024-12-19 13:50:00
+75,Riley,Wilson,riley.wilson75@example.com,ANALYST,Core Services,1,2024-07-31 05:53:45
+76,Jamie,Jones,jamie.jones76@example.com,SUPPORT,Ops,1,2024-07-29 10:23:44
+77,Jamie,Williams,jamie.williams77@example.com,PRODUCT,Security,1,2024-08-30 20:34:46
+78,Jordan,Wilson,jordan.wilson78@example.com,MANAGER,Security,1,2024-04-05 18:28:23
+79,Casey,Jones,casey.jones79@example.com,PRODUCT,Security,1,2024-11-27 05:11:06
+80,Riley,Garcia,riley.garcia80@example.com,DESIGNER,Growth,1,2024-10-21 03:10:35
+81,Quinn,Williams,quinn.williams81@example.com,QA,Web,1,2024-12-07 10:07:32
+82,Morgan,Miller,morgan.miller82@example.com,QA,Mobile,1,2024-07-01 20:29:31
+83,Taylor,Williams,taylor.williams83@example.com,DEVELOPER,Payments,1,2024-10-07 03:16:52
+84,Morgan,Johnson,morgan.johnson84@example.com,DESIGNER,Security,1,2024-11-15 04:19:52
+85,Taylor,Davis,taylor.davis85@example.com,DESIGNER,Security,1,2024-12-16 09:35:35
+86,Alex,Johnson,alex.johnson86@example.com,SUPPORT,Mobile,1,2024-12-31 21:03:26
+87,Jamie,Garcia,jamie.garcia87@example.com,DEVELOPER,Internal Tools,1,2025-03-01 01:45:26
+88,Sam,Garcia,sam.garcia88@example.com,DEVOPS,Growth,1,2024-11-08 16:15:02
+89,Morgan,Miller,morgan.miller89@example.com,DESIGNER,Internal Tools,1,2024-11-04 09:13:34
+90,Quinn,Williams,quinn.williams90@example.com,DESIGNER,Growth,1,2024-07-10 15:07:50
+91,Casey,Rodriguez,casey.rodriguez91@example.com,DESIGNER,Mobile,1,2024-05-05 16:53:11
+92,Casey,Brown,casey.brown92@example.com,MANAGER,Ops,1,2024-11-01 09:16:23
+93,Sam,Williams,sam.williams93@example.com,DEVOPS,Mobile,1,2024-06-03 22:56:15
+94,Taylor,Johnson,taylor.johnson94@example.com,SUPPORT,Security,1,2024-10-03 13:25:07
+95,Avery,Smith,avery.smith95@example.com,PRODUCT,Security,1,2025-01-29 13:42:21
+96,Morgan,Smith,morgan.smith96@example.com,SUPPORT,Growth,0,2024-08-20 05:19:08
+97,Casey,Davis,casey.davis97@example.com,SUPPORT,Internal Tools,1,2024-11-03 17:00:41
+98,Morgan,Brown,morgan.brown98@example.com,DESIGNER,Mobile,1,2024-10-11 05:12:03
+99,Alex,Davis,alex.davis99@example.com,ANALYST,Security,1,2025-02-26 00:46:12
+100,Quinn,Williams,quinn.williams100@example.com,DEVELOPER,Security,1,2024-12-19 02:17:42
+101,Alex,Johnson,alex.johnson101@example.com,SUPPORT,Data Platform,1,2024-06-15 04:31:36
+102,Alex,Jones,alex.jones102@example.com,SUPPORT,Ops,1,2024-08-10 13:06:47
+103,Riley,Davis,riley.davis103@example.com,MANAGER,Security,1,2024-05-07 10:06:39
+104,Quinn,Smith,quinn.smith104@example.com,DEVELOPER,Ops,1,2024-05-02 06:15:32
+105,Alex,Smith,alex.smith105@example.com,PRODUCT,Mobile,1,2024-12-02 21:57:27
+106,Jordan,Brown,jordan.brown106@example.com,DEVOPS,Growth,1,2024-11-10 15:16:00
+107,Taylor,Garcia,taylor.garcia107@example.com,MANAGER,Ops,1,2024-11-27 10:38:46
+108,Sam,Williams,sam.williams108@example.com,MANAGER,Core Services,1,2024-08-04 18:20:30
+109,Morgan,Davis,morgan.davis109@example.com,SUPPORT,Mobile,1,2024-12-29 19:40:56
+110,Taylor,Johnson,taylor.johnson110@example.com,MANAGER,Core Services,1,2024-11-11 09:33:47
+111,Alex,Miller,alex.miller111@example.com,SUPPORT,Ops,1,2024-12-13 02:13:48
+112,Riley,Smith,riley.smith112@example.com,SUPPORT,Growth,1,2024-08-24 06:31:35
+113,Quinn,Williams,quinn.williams113@example.com,SUPPORT,Data Platform,1,2024-12-14 05:23:31
+114,Casey,Wilson,casey.wilson114@example.com,DESIGNER,Growth,1,2025-01-14 12:20:51
+115,Morgan,Jones,morgan.jones115@example.com,ANALYST,Mobile,1,2024-05-09 06:26:46
+116,Casey,Garcia,casey.garcia116@example.com,PRODUCT,Growth,1,2024-12-21 02:39:26
+117,Avery,Miller,avery.miller117@example.com,DEVELOPER,Growth,1,2024-06-15 05:33:35
+118,Quinn,Brown,quinn.brown118@example.com,ANALYST,Web,1,2024-11-23 03:15:24
+119,Casey,Rodriguez,casey.rodriguez119@example.com,DEVELOPER,Internal Tools,1,2024-05-08 20:39:36
+120,Taylor,Davis,taylor.davis120@example.com,DESIGNER,Internal Tools,1,2024-12-29 19:38:06
+121,Quinn,Garcia,quinn.garcia121@example.com,DESIGNER,Payments,1,2024-06-30 16:07:03
+122,Avery,Brown,avery.brown122@example.com,MANAGER,Ops,1,2024-10-28 19:14:25
+123,Riley,Davis,riley.davis123@example.com,ANALYST,Ops,1,2024-07-19 19:48:48
+124,Casey,Jones,casey.jones124@example.com,PRODUCT,Core Services,1,2024-08-06 03:48:34
+125,Sam,Rodriguez,sam.rodriguez125@example.com,DEVOPS,Mobile,1,2024-10-10 15:44:50
+126,Casey,Wilson,casey.wilson126@example.com,MANAGER,Core Services,1,2024-07-29 15:54:23
+127,Taylor,Miller,taylor.miller127@example.com,DEVOPS,Web,0,2024-10-30 01:11:21
+128,Jordan,Jones,jordan.jones128@example.com,DEVELOPER,Payments,1,2025-01-01 11:05:26
+129,Jordan,Garcia,jordan.garcia129@example.com,QA,Payments,1,2024-10-04 21:47:09
+130,Quinn,Garcia,quinn.garcia130@example.com,ANALYST,Data Platform,1,2024-07-12 15:57:30
+131,Quinn,Johnson,quinn.johnson131@example.com,QA,Security,1,2024-11-15 16:54:59
+132,Alex,Williams,alex.williams132@example.com,DEVOPS,Web,1,2024-07-10 23:59:48
+133,Sam,Rodriguez,sam.rodriguez133@example.com,SUPPORT,Mobile,1,2024-08-31 08:04:10
+134,Quinn,Garcia,quinn.garcia134@example.com,MANAGER,Security,1,2024-12-02 19:05:01
+135,Alex,Wilson,alex.wilson135@example.com,QA,Mobile,1,2024-07-17 09:22:12
+136,Sam,Williams,sam.williams136@example.com,PRODUCT,Data Platform,1,2024-06-05 09:40:45
+137,Alex,Davis,alex.davis137@example.com,DESIGNER,Growth,1,2024-07-04 12:12:15
+138,Casey,Jones,casey.jones138@example.com,DESIGNER,Core Services,1,2024-07-17 08:31:02
+139,Morgan,Brown,morgan.brown139@example.com,SUPPORT,Core Services,1,2024-12-13 03:04:57
+140,Jordan,Jones,jordan.jones140@example.com,DEVOPS,Core Services,1,2025-02-07 10:31:23
+141,Casey,Wilson,casey.wilson141@example.com,MANAGER,Growth,1,2024-12-29 01:38:00
+142,Casey,Davis,casey.davis142@example.com,MANAGER,Internal Tools,1,2024-09-22 14:53:52
+143,Sam,Wilson,sam.wilson143@example.com,DEVELOPER,Security,1,2024-11-26 01:42:30
+144,Casey,Smith,casey.smith144@example.com,QA,Mobile,1,2025-02-24 06:23:18
+145,Morgan,Wilson,morgan.wilson145@example.com,DEVELOPER,Web,1,2025-01-26 23:22:51
+146,Jordan,Garcia,jordan.garcia146@example.com,DESIGNER,Web,1,2024-11-18 22:21:25
+147,Avery,Garcia,avery.garcia147@example.com,QA,Growth,1,2024-08-13 01:20:55
+148,Riley,Johnson,riley.johnson148@example.com,DEVOPS,Ops,1,2024-10-15 00:47:43
+149,Casey,Davis,casey.davis149@example.com,DEVELOPER,Growth,1,2024-07-12 15:13:02
+150,Riley,Johnson,riley.johnson150@example.com,SUPPORT,Internal Tools,1,2024-04-06 01:25:05
+151,Jamie,Garcia,jamie.garcia151@example.com,SUPPORT,Payments,1,2024-08-24 02:43:02
+152,Morgan,Garcia,morgan.garcia152@example.com,DESIGNER,Payments,1,2024-11-04 21:47:15
+153,Jordan,Jones,jordan.jones153@example.com,DESIGNER,Growth,1,2024-12-06 06:55:21
+154,Morgan,Brown,morgan.brown154@example.com,DEVOPS,Web,1,2024-11-06 02:02:44
+155,Avery,Johnson,avery.johnson155@example.com,PRODUCT,Core Services,1,2024-05-21 05:33:11
+156,Jordan,Garcia,jordan.garcia156@example.com,MANAGER,Internal Tools,1,2024-09-13 23:20:24
+157,Quinn,Garcia,quinn.garcia157@example.com,PRODUCT,Growth,1,2024-09-01 13:58:12
+158,Taylor,Wilson,taylor.wilson158@example.com,DEVOPS,Core Services,1,2025-02-06 10:04:50
+159,Avery,Miller,avery.miller159@example.com,MANAGER,Payments,1,2024-07-30 13:25:53
+160,Morgan,Wilson,morgan.wilson160@example.com,DESIGNER,Data Platform,1,2024-10-10 17:04:42
+161,Riley,Miller,riley.miller161@example.com,SUPPORT,Growth,1,2025-03-09 07:57:52
+162,Taylor,Brown,taylor.brown162@example.com,SUPPORT,Mobile,1,2024-09-12 03:23:27
+163,Alex,Miller,alex.miller163@example.com,DESIGNER,Security,1,2024-12-19 08:43:03
+164,Jordan,Garcia,jordan.garcia164@example.com,DEVELOPER,Data Platform,1,2024-11-20 19:34:11
+165,Riley,Johnson,riley.johnson165@example.com,DESIGNER,Core Services,1,2024-09-30 01:34:04
+166,Alex,Williams,alex.williams166@example.com,SUPPORT,Data Platform,1,2025-02-03 03:01:59
+167,Casey,Miller,casey.miller167@example.com,SUPPORT,Core Services,1,2025-03-02 15:05:11
+168,Jamie,Davis,jamie.davis168@example.com,ANALYST,Growth,1,2024-04-19 13:17:35
+169,Morgan,Johnson,morgan.johnson169@example.com,PRODUCT,Web,1,2025-01-20 15:03:23
+170,Sam,Davis,sam.davis170@example.com,QA,Core Services,1,2024-12-31 03:14:56
+171,Casey,Smith,casey.smith171@example.com,DEVELOPER,Ops,1,2024-07-28 13:04:31
+172,Riley,Miller,riley.miller172@example.com,SUPPORT,Data Platform,1,2024-09-12 15:17:24
+173,Morgan,Williams,morgan.williams173@example.com,DEVOPS,Data Platform,1,2025-03-09 19:30:10
+174,Avery,Wilson,avery.wilson174@example.com,PRODUCT,Growth,1,2024-05-31 04:38:35
+175,Taylor,Garcia,taylor.garcia175@example.com,MANAGER,Growth,1,2024-04-09 06:16:47
+176,Quinn,Jones,quinn.jones176@example.com,DEVOPS,Core Services,1,2024-08-17 19:35:40
+177,Morgan,Jones,morgan.jones177@example.com,SUPPORT,Web,1,2024-07-31 22:40:03
+178,Taylor,Davis,taylor.davis178@example.com,DESIGNER,Core Services,1,2024-11-13 17:23:43
+179,Riley,Wilson,riley.wilson179@example.com,MANAGER,Web,0,2025-02-21 23:12:00
+180,Avery,Jones,avery.jones180@example.com,DEVELOPER,Payments,1,2025-01-20 00:11:50
+181,Quinn,Jones,quinn.jones181@example.com,PRODUCT,Ops,1,2024-06-18 10:50:52
+182,Morgan,Jones,morgan.jones182@example.com,DEVOPS,Core Services,1,2024-12-12 15:01:14
+183,Alex,Jones,alex.jones183@example.com,DESIGNER,Payments,1,2025-01-15 00:46:38
+184,Jordan,Johnson,jordan.johnson184@example.com,MANAGER,Ops,1,2024-06-12 19:46:24
+185,Taylor,Williams,taylor.williams185@example.com,ANALYST,Internal Tools,1,2024-07-20 10:49:42
+186,Jordan,Jones,jordan.jones186@example.com,DESIGNER,Web,1,2024-08-15 03:44:39
+187,Sam,Garcia,sam.garcia187@example.com,QA,Data Platform,1,2024-07-02 05:34:14
+188,Avery,Rodriguez,avery.rodriguez188@example.com,ANALYST,Core Services,1,2024-04-11 00:25:14
+189,Casey,Rodriguez,casey.rodriguez189@example.com,QA,Growth,1,2025-01-21 11:59:00
+190,Casey,Wilson,casey.wilson190@example.com,SUPPORT,Ops,1,2024-07-05 10:04:03
+191,Quinn,Smith,quinn.smith191@example.com,ANALYST,Mobile,1,2024-12-08 09:04:59
+192,Quinn,Jones,quinn.jones192@example.com,SUPPORT,Core Services,1,2024-04-20 01:31:53
+193,Casey,Garcia,casey.garcia193@example.com,QA,Core Services,1,2024-10-31 08:59:13
+194,Jordan,Davis,jordan.davis194@example.com,DESIGNER,Ops,1,2025-01-19 05:15:26
+195,Jamie,Davis,jamie.davis195@example.com,DEVOPS,Security,1,2025-02-23 09:16:19
+196,Quinn,Wilson,quinn.wilson196@example.com,SUPPORT,Web,0,2024-08-27 12:16:44
+197,Taylor,Garcia,taylor.garcia197@example.com,DESIGNER,Mobile,1,2024-05-14 04:44:29
+198,Riley,Rodriguez,riley.rodriguez198@example.com,ANALYST,Payments,1,2024-06-18 07:50:00
+199,Sam,Garcia,sam.garcia199@example.com,QA,Mobile,1,2024-11-23 12:29:35
+200,Alex,Smith,alex.smith200@example.com,ANALYST,Mobile,1,2025-02-05 05:51:25
+201,Morgan,Brown,morgan.brown201@example.com,QA,Internal Tools,1,2024-06-28 11:30:06
+202,Taylor,Miller,taylor.miller202@example.com,DEVOPS,Payments,1,2024-05-31 19:16:44
+203,Jordan,Rodriguez,jordan.rodriguez203@example.com,MANAGER,Data Platform,1,2025-03-08 02:34:08
+204,Alex,Williams,alex.williams204@example.com,DEVELOPER,Ops,1,2024-07-07 00:22:21
+205,Morgan,Miller,morgan.miller205@example.com,DEVELOPER,Data Platform,1,2024-05-24 20:09:52
+206,Avery,Rodriguez,avery.rodriguez206@example.com,QA,Core Services,1,2025-02-01 18:20:01
+207,Riley,Rodriguez,riley.rodriguez207@example.com,QA,Growth,1,2024-11-30 11:54:02
+208,Alex,Rodriguez,alex.rodriguez208@example.com,MANAGER,Growth,1,2024-04-17 17:02:04
+209,Alex,Garcia,alex.garcia209@example.com,SUPPORT,Security,1,2024-10-13 00:19:34
+210,Quinn,Johnson,quinn.johnson210@example.com,QA,Ops,1,2024-05-01 02:53:32
+211,Jordan,Jones,jordan.jones211@example.com,ANALYST,Security,1,2024-10-28 15:50:15
+212,Casey,Garcia,casey.garcia212@example.com,SUPPORT,Core Services,1,2024-05-20 01:06:21
+213,Jamie,Brown,jamie.brown213@example.com,SUPPORT,Growth,1,2024-09-13 07:42:41
+214,Riley,Garcia,riley.garcia214@example.com,SUPPORT,Security,1,2024-08-04 23:51:04
+215,Avery,Miller,avery.miller215@example.com,MANAGER,Ops,1,2024-12-28 08:19:31
+216,Quinn,Johnson,quinn.johnson216@example.com,QA,Core Services,1,2024-05-13 02:44:06
+217,Riley,Williams,riley.williams217@example.com,DEVELOPER,Internal Tools,1,2024-12-21 19:39:56
+218,Sam,Davis,sam.davis218@example.com,ANALYST,Security,1,2025-01-10 15:27:43
+219,Alex,Jones,alex.jones219@example.com,MANAGER,Ops,1,2024-10-19 16:07:01
+220,Taylor,Williams,taylor.williams220@example.com,DESIGNER,Mobile,1,2024-08-19 13:59:18
+221,Jamie,Miller,jamie.miller221@example.com,QA,Web,1,2025-02-13 02:32:16
+222,Avery,Rodriguez,avery.rodriguez222@example.com,DEVELOPER,Web,0,2024-07-20 17:45:14
+223,Casey,Miller,casey.miller223@example.com,ANALYST,Payments,1,2024-05-31 05:53:24
+224,Morgan,Davis,morgan.davis224@example.com,QA,Data Platform,1,2024-04-17 12:26:03
+225,Sam,Rodriguez,sam.rodriguez225@example.com,PRODUCT,Security,1,2024-08-16 00:04:13
+226,Jordan,Miller,jordan.miller226@example.com,MANAGER,Ops,1,2024-11-12 01:02:41
+227,Morgan,Johnson,morgan.johnson227@example.com,DEVELOPER,Data Platform,1,2024-12-01 13:21:31
+228,Alex,Johnson,alex.johnson228@example.com,MANAGER,Growth,1,2024-10-11 05:23:04
+229,Morgan,Garcia,morgan.garcia229@example.com,SUPPORT,Web,1,2024-10-21 14:06:11
+230,Sam,Miller,sam.miller230@example.com,SUPPORT,Core Services,1,2024-12-25 02:38:22
+231,Morgan,Garcia,morgan.garcia231@example.com,MANAGER,Payments,1,2024-11-24 08:48:10
+232,Alex,Smith,alex.smith232@example.com,PRODUCT,Web,1,2025-01-28 14:54:19
+233,Jordan,Jones,jordan.jones233@example.com,MANAGER,Ops,1,2024-10-15 18:39:24
+234,Avery,Williams,avery.williams234@example.com,DEVOPS,Security,1,2024-07-03 23:28:36
+235,Jamie,Rodriguez,jamie.rodriguez235@example.com,ANALYST,Core Services,1,2025-01-18 19:00:57
+236,Alex,Davis,alex.davis236@example.com,DEVELOPER,Growth,1,2025-03-06 10:08:13
+237,Riley,Wilson,riley.wilson237@example.com,SUPPORT,Security,1,2024-09-14 19:52:45
+238,Casey,Johnson,casey.johnson238@example.com,SUPPORT,Payments,1,2024-06-11 08:39:48
+239,Morgan,Garcia,morgan.garcia239@example.com,ANALYST,Core Services,1,2024-05-16 17:24:19
+240,Taylor,Davis,taylor.davis240@example.com,SUPPORT,Internal Tools,1,2025-03-09 16:33:54
+241,Casey,Miller,casey.miller241@example.com,PRODUCT,Ops,1,2024-05-05 06:35:48
+242,Jamie,Johnson,jamie.johnson242@example.com,PRODUCT,Ops,1,2025-02-17 15:50:37
+243,Jordan,Brown,jordan.brown243@example.com,QA,Data Platform,1,2024-06-11 23:49:03
+244,Morgan,Williams,morgan.williams244@example.com,QA,Data Platform,1,2024-12-05 11:35:46
+245,Quinn,Garcia,quinn.garcia245@example.com,DESIGNER,Ops,1,2024-12-05 04:46:45
+246,Riley,Williams,riley.williams246@example.com,DESIGNER,Core Services,1,2024-12-06 19:37:31
+247,Casey,Jones,casey.jones247@example.com,DEVELOPER,Ops,1,2024-08-04 03:54:01
+248,Quinn,Garcia,quinn.garcia248@example.com,DEVELOPER,Payments,1,2024-07-26 02:26:28
+249,Sam,Johnson,sam.johnson249@example.com,SUPPORT,Growth,1,2025-02-07 02:57:58
+250,Alex,Garcia,alex.garcia250@example.com,PRODUCT,Ops,1,2024-10-17 07:46:17
+251,Jordan,Smith,jordan.smith251@example.com,DESIGNER,Core Services,1,2025-02-24 19:36:37
+252,Riley,Johnson,riley.johnson252@example.com,DEVOPS,Payments,1,2024-09-22 14:53:32
+253,Quinn,Rodriguez,quinn.rodriguez253@example.com,DEVOPS,Ops,1,2024-07-24 11:26:55
+254,Avery,Davis,avery.davis254@example.com,ANALYST,Payments,1,2024-12-13 00:00:45
+255,Riley,Johnson,riley.johnson255@example.com,ANALYST,Core Services,1,2024-09-02 17:43:44
+256,Casey,Jones,casey.jones256@example.com,DEVOPS,Ops,1,2024-12-19 08:00:09
+257,Jordan,Miller,jordan.miller257@example.com,MANAGER,Security,1,2025-01-05 21:30:04
+258,Sam,Jones,sam.jones258@example.com,SUPPORT,Ops,1,2024-12-21 20:37:37
+259,Jamie,Johnson,jamie.johnson259@example.com,SUPPORT,Internal Tools,1,2024-08-24 10:20:40
+260,Casey,Williams,casey.williams260@example.com,PRODUCT,Ops,1,2024-10-11 11:03:46
+261,Taylor,Brown,taylor.brown261@example.com,DEVOPS,Data Platform,1,2025-02-27 13:19:56
+262,Sam,Rodriguez,sam.rodriguez262@example.com,DEVELOPER,Ops,1,2024-12-01 15:09:36
+263,Jordan,Wilson,jordan.wilson263@example.com,SUPPORT,Data Platform,1,2025-02-22 11:23:13
+264,Morgan,Williams,morgan.williams264@example.com,DESIGNER,Payments,1,2024-12-24 06:50:55
+265,Taylor,Garcia,taylor.garcia265@example.com,MANAGER,Growth,1,2024-07-07 11:54:05
+266,Casey,Garcia,casey.garcia266@example.com,PRODUCT,Ops,1,2024-11-13 03:23:00
+267,Quinn,Garcia,quinn.garcia267@example.com,MANAGER,Security,1,2024-09-15 04:53:28
+268,Jordan,Brown,jordan.brown268@example.com,DEVOPS,Web,1,2024-10-09 06:07:08
+269,Riley,Rodriguez,riley.rodriguez269@example.com,QA,Internal Tools,1,2024-07-25 07:40:09
+270,Sam,Williams,sam.williams270@example.com,MANAGER,Growth,1,2024-06-01 20:04:42
+271,Avery,Johnson,avery.johnson271@example.com,PRODUCT,Growth,1,2024-04-15 23:16:25
+272,Avery,Smith,avery.smith272@example.com,SUPPORT,Internal Tools,1,2024-09-02 14:01:06
+273,Sam,Miller,sam.miller273@example.com,PRODUCT,Payments,1,2024-05-14 02:12:39
+274,Riley,Williams,riley.williams274@example.com,DEVOPS,Payments,1,2025-02-21 20:37:40
+275,Quinn,Williams,quinn.williams275@example.com,DESIGNER,Growth,1,2024-05-06 09:07:37
+276,Alex,Jones,alex.jones276@example.com,PRODUCT,Data Platform,1,2025-01-13 01:00:32
+277,Morgan,Rodriguez,morgan.rodriguez277@example.com,SUPPORT,Core Services,1,2024-07-06 21:39:24
+278,Casey,Johnson,casey.johnson278@example.com,DEVELOPER,Mobile,1,2025-02-07 22:21:55
+279,Morgan,Garcia,morgan.garcia279@example.com,QA,Core Services,1,2024-10-16 17:26:07
+280,Morgan,Rodriguez,morgan.rodriguez280@example.com,DEVELOPER,Internal Tools,1,2025-01-09 16:00:28
+281,Jordan,Jones,jordan.jones281@example.com,SUPPORT,Payments,1,2024-07-08 00:54:38
+282,Morgan,Davis,morgan.davis282@example.com,DEVOPS,Core Services,1,2024-08-23 15:45:36
+283,Sam,Rodriguez,sam.rodriguez283@example.com,DEVELOPER,Security,1,2024-04-22 12:27:34
+284,Avery,Miller,avery.miller284@example.com,MANAGER,Payments,1,2024-05-01 20:23:24
+285,Riley,Brown,riley.brown285@example.com,QA,Ops,1,2024-08-20 10:21:16
+286,Jamie,Miller,jamie.miller286@example.com,DEVOPS,Growth,1,2024-10-08 10:55:23
+287,Jordan,Williams,jordan.williams287@example.com,QA,Growth,0,2024-06-22 21:39:13
+288,Alex,Brown,alex.brown288@example.com,DEVELOPER,Ops,1,2024-10-22 18:24:45
+289,Avery,Rodriguez,avery.rodriguez289@example.com,DESIGNER,Web,0,2024-12-12 20:14:20
+290,Taylor,Jones,taylor.jones290@example.com,ANALYST,Payments,1,2024-08-12 12:27:06
+291,Casey,Johnson,casey.johnson291@example.com,ANALYST,Security,1,2025-01-19 06:49:09
+292,Quinn,Davis,quinn.davis292@example.com,ANALYST,Data Platform,1,2024-10-15 19:56:36
+293,Riley,Rodriguez,riley.rodriguez293@example.com,MANAGER,Core Services,1,2024-05-06 06:20:32
+294,Avery,Wilson,avery.wilson294@example.com,DEVOPS,Internal Tools,1,2024-05-15 10:58:16
+295,Sam,Miller,sam.miller295@example.com,MANAGER,Web,1,2025-01-09 07:47:33
+296,Avery,Williams,avery.williams296@example.com,DESIGNER,Ops,1,2025-01-12 21:05:26
+297,Riley,Wilson,riley.wilson297@example.com,SUPPORT,Web,1,2025-02-06 23:47:50
+298,Alex,Johnson,alex.johnson298@example.com,SUPPORT,Ops,1,2025-01-21 20:14:42
+299,Jordan,Smith,jordan.smith299@example.com,DEVOPS,Growth,0,2024-05-01 17:20:59
+300,Taylor,Miller,taylor.miller300@example.com,ANALYST,Security,1,2024-04-18 04:32:33

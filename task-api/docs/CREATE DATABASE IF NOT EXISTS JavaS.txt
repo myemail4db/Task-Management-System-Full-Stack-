@@ -1,0 +1,81 @@
+CREATE DATABASE IF NOT EXISTS JavaSpringBootTaskdb CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci;
+USE JavaSpringBootTaskdb;
+
+CREATE TABLE users (
+  user_id INT PRIMARY KEY,
+  first_name VARCHAR(50),
+  last_name VARCHAR(50),
+  email VARCHAR(120) UNIQUE,
+  role ENUM('DEVELOPER','QA','DEVOPS','PRODUCT','MANAGER','ANALYST','SUPPORT','DESIGNER'),
+  team VARCHAR(60),
+  active TINYINT(1) NOT NULL DEFAULT 1,
+  created_at DATETIME NOT NULL
+);
+
+CREATE TABLE projects (
+  project_id INT PRIMARY KEY,
+  code VARCHAR(20) UNIQUE,
+  name VARCHAR(120),
+  type ENUM('FEATURE','PLATFORM','RESEARCH','MAINTENANCE','SECURITY'),
+  status ENUM('PLANNING','ACTIVE','ON_HOLD','DONE','CANCELLED'),
+  owner_user_id INT,
+  created_at DATETIME NOT NULL,
+  target_due DATETIME NULL,
+  CONSTRAINT fk_projects_owner FOREIGN KEY (owner_user_id) REFERENCES users(user_id)
+);
+
+CREATE TABLE tasks (
+  task_id INT PRIMARY KEY,
+  project_id INT NOT NULL,
+  title VARCHAR(255),
+  description TEXT,
+  priority ENUM('LOW','MEDIUM','HIGH','CRITICAL'),
+  status ENUM('OPEN','IN_PROGRESS','BLOCKED','REVIEW','DONE','CANCELLED'),
+  estimate_points INT,
+  creator_user_id INT,
+  created_at DATETIME NOT NULL,
+  updated_at DATETIME NOT NULL,
+  due_date DATETIME NULL,
+  CONSTRAINT fk_tasks_project FOREIGN KEY (project_id) REFERENCES projects(project_id),
+  CONSTRAINT fk_tasks_creator FOREIGN KEY (creator_user_id) REFERENCES users(user_id)
+);
+
+CREATE TABLE task_assignments (
+  task_id INT NOT NULL,
+  user_id INT NOT NULL,
+  assigned_at DATETIME NOT NULL,
+  PRIMARY KEY (task_id, user_id),
+  CONSTRAINT fk_ta_task FOREIGN KEY (task_id) REFERENCES tasks(task_id),
+  CONSTRAINT fk_ta_user FOREIGN KEY (user_id) REFERENCES users(user_id)
+);
+
+CREATE TABLE comments (
+  comment_id INT PRIMARY KEY,
+  task_id INT NOT NULL,
+  user_id INT NOT NULL,
+  body TEXT,
+  created_at DATETIME NOT NULL,
+  CONSTRAINT fk_comments_task FOREIGN KEY (task_id) REFERENCES tasks(task_id),
+  CONSTRAINT fk_comments_user FOREIGN KEY (user_id) REFERENCES users(user_id)
+);
+
+CREATE TABLE labels (
+  label_id INT PRIMARY KEY,
+  name VARCHAR(120) UNIQUE,
+  category ENUM('domain','priority','component','release','area')
+);
+
+CREATE TABLE task_labels (
+  task_id INT NOT NULL,
+  label_id INT NOT NULL,
+  PRIMARY KEY (task_id, label_id),
+  CONSTRAINT fk_tl_task FOREIGN KEY (task_id) REFERENCES tasks(task_id),
+  CONSTRAINT fk_tl_label FOREIGN KEY (label_id) REFERENCES labels(label_id)
+);
+
+-- Helpful indexes
+CREATE INDEX idx_tasks_project_status ON tasks(project_id, status);
+CREATE INDEX idx_tasks_due ON tasks(due_date);
+CREATE INDEX idx_tasks_created ON tasks(created_at);
+CREATE INDEX idx_comments_task ON comments(task_id, created_at);
+CREATE INDEX idx_assign_user ON task_assignments(user_id, task_id);
